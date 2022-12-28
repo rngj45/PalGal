@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<!-- saved from url=(0035)http://127.0.0.1:5500/features.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./PalGal__files/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous">
+    <link rel="stylesheet" href="./PalGal__files/utilities.css">
+    <link rel="stylesheet" href="./PalGal__files/style.css">
+    <title>PalGal|</title>
+</head>
+<body>
+    <!-- Navbar -->
+    <div class="navbar">
+        <div class="container flex">
+            <h1 class="logo">PalGal</h1>
+            <nav>
+                <ul>
+                    <li><a href="http://127.0.0.1:5500/index.html">Home</a></li>
+                    <li><a href="http://127.0.0.1:5500/features.html">About</a></li>
+                    <!-- <li><a href="docs.html">Docs</a></li> -->
+                </ul>
+            </nav>
+        </div>
+    </div>
+
+    <!-- Head -->
+    <section class="features-head bg-primary py-3">
+        <div class="container grid">
+            <div>
+                <h1 class="xl">We're about helping people.</h1>
+                <p class="lead">
+                    I'm a single mom on the struggle. I know what it's like.
+            </p></div>
+            <img src="./PalGal__files/patty headshot1.jpg" alt="picture of Patty">
+        </div>
+    </section>
+
+    <!-- Sub head -->
+    <section class="features-sub-head bg-light py-3">
+        <div class="container grid">
+            <div>
+                <h1 class="md">We do it for the good of man.</h1>
+                <p>
+                    All we ask, is for a measly 5% donation, for pointing you in the right direction. This will ensure that we can continue to help people just like you. Thank you and God bless.
+                </p>
+            </div>
+            <img src="./PalGal__files/server2.png" alt="">
+        </div>
+    </section>
+
+    <section class="features-main my-2">
+        <div class="container grid grid-3">
+            <div class="card flex">
+                <img src="./PalGal__files/RG_face_thumb2.jpg" alt="picture of dude">
+                <!-- <i class="fas fa-server fa-3x"></i> -->
+                <p>Patty gave me a call out of the blue. She told me she had done a search on my name and that the state of Illinois was holding substantial money on my behalf. When I found out it was 4,400 I couldnt believe it. I love PalGal! </p>
+            </div>
+            <div class="card flex">
+                <i class="fas fa-network-wired fa-3x"></i>
+                <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ducimus
+                    recusandae perferendis culpa, reiciendis a itaque debitis qui vel
+                    dignissimos ipsum!
+                </p>
+            </div>
+            <div class="card flex">
+                <i class="fas fa-laptop-code fa-3x"></i>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Debitis,
+                    magnam.
+                </p>
+            </div>
+            <div class="card flex">
+                <i class="fas fa-database fa-3x"></i>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero, a!
+                </p>
+            </div>
+            <div class="card flex">
+                <i class="fas fa-power-off fa-3x"></i>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Debitis,
+                    magnam.
+                </p>
+            </div>
+            <div class="card flex">
+                <i class="fas fa-upload fa-3x"></i>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Debitis,
+                    magnam.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer bg-dark py-5">
+        <div class="container grid grid-3">
+            <div>
+                <h1>Loruki
+                </h1>
+                <p>Copyright © 2020</p>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="http://127.0.0.1:5500/index.html">Home</a></li>
+                    <li><a href="http://127.0.0.1:5500/features.html">About</a></li>
+                    <!-- <li><a href="docs.html">Docs</a></li> -->
+                </ul>
+            </nav>
+            <div class="social">
+                <!-- <a href="#"><i class="fab fa-github fa-2x"></i></a> -->
+                <a href="http://127.0.0.1:5500/features.html#"><i class="fab fa-facebook fa-2x"></i></a>
+                <a href="http://127.0.0.1:5500/features.html#"><i class="fab fa-instagram fa-2x"></i></a>
+                <a href="http://127.0.0.1:5500/features.html#"><i class="fab fa-twitter fa-2x"></i></a>
+            </div>
+        </div>
+    </footer>
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+</body></html>
